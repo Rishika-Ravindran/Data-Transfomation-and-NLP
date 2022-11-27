@@ -7,7 +7,7 @@ import pandas as pd
 import ast
 import re
 from pg.utils.text_proc_utils import cluster_names
-from clustering import village_preprocess_and_map
+from clustering import text_preprocess_and_map
 
 lev = Levenshtein()
 
